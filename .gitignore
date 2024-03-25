@@ -1,9 +1,9 @@
-core.Microsoft*
-core.mongo*
-core.python*
-env.py
-__pycache__/
-*.py[cod]
-node_modules/
-.github/
-cloudinary_python.txt
+*.sqlite3
+*.pyc
+__pycache__
+
+
+# super user:
+# ado_admin
+# ado_admin@noemail.com
+# ado_admin_password
