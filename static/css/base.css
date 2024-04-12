@@ -1,5 +1,3 @@
-
-/* allows the bootsrap h and centering to work */
 html {
     height: 100%;
 }
@@ -76,17 +74,17 @@ body {
 }
 
 .overlay {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background: white;
-    z-index: -1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
 }
 
 a.category-badge > span.badge:hover {
-    background: #212526 !important;
+    background: #212529 !important;
     color: #fff !important;
 }
 
@@ -104,13 +102,13 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
-/* -------------------------------- bootstrap toasts */
+/* ------------------------------- bootstrap toasts */
 
 .message-container {
     position: fixed;
     top: 72px;
     right: 15px;
-    z-index: 9999999999;
+    z-index: 99999999999;
 }
 
 .custom-toast {
