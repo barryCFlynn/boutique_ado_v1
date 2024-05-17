@@ -31,7 +31,8 @@ SECRET_KEY = 'p@ei#69*b*zz3u4yie-$()@cy^l(+x9&@6ypx+r0lm(3%_9hr7'
 DEBUG = False
 
 ALLOWED_HOSTS = ['8000-barrycflynn-boutiqueado-5cnzakt4alx.ws-eu111.gitpod.io',
-                '.herokuapp.com',]
+                'https://bflynn-boutique-ado-9dcd13cecf91.herokuapp.com/',
+                'localhost',]
 
 
 # Application definition
