@@ -32,6 +32,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['8000-barrycflynn-boutiqueado-5cnzakt4alx.ws-eu111.gitpod.io',
                 'https://bflynn-boutique-ado-9dcd13cecf91.herokuapp.com/',
+                '*.herokuapp.com',
+                '.herokuapp.com',
                 'localhost',]
 
 
