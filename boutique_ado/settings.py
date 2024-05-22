@@ -28,9 +28,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+# DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True
 
-ALLOWED_HOSTS = ['8000-barrycflynn-boutiqueado-5cnzakt4alx.ws-eu111.gitpod.io',
+ALLOWED_HOSTS = ['8000-barrycflynn-boutiqueado-5cnzakt4alx.ws-eu114.gitpod.io',
                 'bflynn-boutique-ado-9dcd13cecf91.herokuapp.com',
                 '*.herokuapp.com',
                 '.herokuapp.com',
@@ -192,7 +193,7 @@ if 'USE_AWS' in os.environ:
         'CacheControl': 'max-age=94608000',
     }
 
-
+    
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'bflynn-boutique-ado-9dcd13cecf91'
     AWS_S3_REGION_NAME = 'eu-north-1'
