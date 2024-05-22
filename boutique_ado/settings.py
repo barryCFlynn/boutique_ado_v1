@@ -35,7 +35,8 @@ ALLOWED_HOSTS = ['8000-barrycflynn-boutiqueado-5cnzakt4alx.ws-eu114.gitpod.io',
                 'bflynn-boutique-ado-9dcd13cecf91.herokuapp.com',
                 '*.herokuapp.com',
                 '.herokuapp.com',
-                'localhost',]
+                'localhost',
+                ]
 
 
 # Application definition
